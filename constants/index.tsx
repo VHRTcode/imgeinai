@@ -42,40 +42,16 @@ export const navLinks = [
   ];
   
   export const plans = [
+
     {
       _id: 1,
-      name: "Free",
-      icon: "/assets/icons/free-plan.svg",
-      price: 0,
-      credits: 4,
-      inclusions: [
-        {
-          label: "20 Free Credits",
-          isIncluded: true,
-        },
-        {
-          label: "Basic Access to Services",
-          isIncluded: true,
-        },
-        {
-          label: "Priority Customer Support",
-          isIncluded: false,
-        },
-        {
-          label: "Priority Updates",
-          isIncluded: false,
-        },
-      ],
-    },
-    {
-      _id: 2,
       name: "Pro Package",
       icon: "/assets/icons/free-plan.svg",
-      price: 5,
-      credits: 40,
+      price: 100,
+      credits: 5,
       inclusions: [
         {
-          label: "40 Credits",
+          label: "5 Credits",
           isIncluded: true,
         },
         {
@@ -86,37 +62,34 @@ export const navLinks = [
           label: "Priority Customer Support",
           isIncluded: true,
         },
-        {
-          label: "Priority Updates",
-          isIncluded: false,
-        },
+        
       ],
     },
-    {
-      _id: 3,
-      name: "Premium Package",
-      icon: "/assets/icons/free-plan.svg",
-      price: 15,
-      credits: 100,
-      inclusions: [
-        {
-          label: "100 Credits",
-          isIncluded: true,
-        },
-        {
-          label: "Full Access to Services",
-          isIncluded: true,
-        },
-        {
-          label: "Priority Customer Support",
-          isIncluded: true,
-        },
-        {
-          label: "Priority Updates",
-          isIncluded: true,
-        },
-      ],
-    },
+    // {
+    //   _id: 3,
+    //   name: "Premium Package",
+    //   icon: "/assets/icons/free-plan.svg",
+    //   price: 15,
+    //   credits: 100,
+    //   inclusions: [
+    //     {
+    //       label: "100 Credits",
+    //       isIncluded: true,
+    //     },
+    //     {
+    //       label: "Full Access to Services",
+    //       isIncluded: true,
+    //     },
+    //     {
+    //       label: "Priority Customer Support",
+    //       isIncluded: true,
+    //     },
+    //     {
+    //       label: "Priority Updates",
+    //       isIncluded: true,
+    //     },
+    //   ],
+    // },
   ];
   
   export const transformationTypes = {

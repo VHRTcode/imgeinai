@@ -7,6 +7,7 @@ import { useToast } from "@/components/ui/use-toast";
 import { checkoutCredits } from "@/lib/Actions/transaction.action";
 
 import { Button } from "../ui/button";
+import Banner from "../../app/(root)/razorpay/page";
 
 const Checkout = ({
   plan,
@@ -70,6 +71,7 @@ const Checkout = ({
         </Button>
       </section>
     </form>
+    
   );
 };
 
